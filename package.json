@@ -1,0 +1,31 @@
+{
+  "name": "simple-dynamic-timer",
+  "version": "0.0.1",
+  "description": "Schedule execution of a multi-time callback after delay milliseconds, automatic, intelligence and without bothering, the delay is calculated from different algorithms, e.g.: Lucas Sequence, Fibonacci Sequence, DaYan Series and Arithmetic Procession.",
+  "main": "lib/timer.js",
+  "scripts": {
+    "test": "mocha -R spec -t 300000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firenanse/simple-dynamic-timer.git"
+  },
+  "keywords": [
+    "timer",
+    "setTimeout",
+    "intelligence",
+    "dynamic"
+  ],
+  "author": {
+    "name": "firenanse"
+  },
+  "license": "Apache, Version 2.0",
+  "dependencies": {
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "chai": "^1.9.1"
+  },
+  "readmeFilename": "README.md"
+}
